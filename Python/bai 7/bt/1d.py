@@ -1,0 +1,7 @@
+A= list(map(int,input().split()))
+_max= max(A)
+_min= min(A)
+VT_max= A.index(_max)
+VT_min= A.index(_min)
+print(f'gia tri lon nhat la {_max} co vi tri la {VT_max}')
+print(f'gia tri lon nhat la {_min} co vi tri la {VT_min}')
